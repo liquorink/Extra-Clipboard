@@ -1,0 +1,29 @@
+Call me any time :heart:
+Call me any time :heart:
+Call me any time :heart:
+ data
+  time.sleep(0.5)
+  time.sleep(0.5)
+Call me any time :heart:
+
+ != data:
+        with open("clip_history.txt", "a+") as f:
+            f.write(data + "\n")
+        old = data
+ew data is identical to the data that has been called before.
+old = ""
+
+while True:
+    win32clipboard.OpenClipboard()
+    data = win32clipboard.GetClipboardData()
+    win32clipboard.CloseClipboard()
+    if old != data:
+        with open("clip_history.txt", "a+") as f:
+            f.write(data + "\n")
+        old = data
+    time.sleep(0.5)
+
+:heart:
+leep(0.5)
+sleep
+Downstairs

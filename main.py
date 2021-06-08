@@ -1,6 +1,6 @@
 import win32clipboard
 import time  # required to ask whether the content is changing or has changed & disable the script whenever you want.
-import threading
+
 # Checking if the new data is identical to the data that has been called before.
 old = ""
 
